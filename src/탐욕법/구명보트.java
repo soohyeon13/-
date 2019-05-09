@@ -2,31 +2,27 @@ package 탐욕법;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 public class 구명보트 {
     public int solution(int[] people, int limit) {
         int answer = 0;
-        Arrays.sort(people);
-        LinkedList<Integer> lifeBoat = new LinkedList<>();
-        for (int i = 0; i < people.length; i++) {
-            lifeBoat.add(people[i]);
-        }
         int index = 0;
-        int weight = lifeBoat.get(0);
-        while (!lifeBoat.isEmpty()) {
-            if (index == 2) {
+        int i = 0;
+        Arrays.sort(people);
+
+        for (i = people.length - 1; i >index; i--) {
+            if (people[i] + people[index] <= limit) {
+                index++;
                 answer++;
-                index = 0;
-            }
-            if (weight < limit) {
-                weight += lifeBoat.poll();
-                index += 1;
-            }
-            if (weight >= limit) {
+            } else {
                 answer++;
             }
+        }
+
+        if (i == index) {
+            answer++;
         }
         return answer;
     }
-
 }
