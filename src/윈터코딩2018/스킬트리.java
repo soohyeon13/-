@@ -3,23 +3,26 @@ package 윈터코딩2018;
 class 스킬트리 {
     public int solution(String skill, String[] skill_trees) {
         int answer = 0;
-        String[] mSkill;
-        mSkill = skill.split("");
+        int count = 0;
 
-        for (String a : skill_trees) {
-            int len = a.indexOf(mSkill[0]);
-            for (int i = 1; i < mSkill.length; i++) {
-                if (len == a.length()) {
-                    answer++;
+        for (String skills : skill_trees) {
+            boolean classification = true;
+            int index = 0;
+            String[] mSkill = skills.split("");
+            for (int i = 0; i < mSkill.length; i++) {
+                if (index < skill.indexOf(mSkill[i])) {
+                    classification = false;
                     break;
-                }
-                if (len < a.indexOf(mSkill[i])) {
-                    len = a.indexOf(mSkill[i]);
-                }else if (len > a.indexOf(mSkill[i])){
-                    break;
+                } else if (index == skill.indexOf(mSkill[i])) {
+                    index++;
                 }
             }
+            if (classification) {
+                count += 1;
+            }
         }
-            return answer;
+
+        answer = count;
+        return answer;
     }
 }
