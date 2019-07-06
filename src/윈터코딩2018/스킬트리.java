@@ -5,6 +5,7 @@ class 스킬트리 {
         int answer = 0;
         int count = 0;
 
+
         for (String skills : skill_trees) {
             boolean classification = true;
             int index = 0;
