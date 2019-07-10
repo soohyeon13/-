@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java" afterDir="false" />
+    <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="알고리즘">
+      <change afterPath="$PROJECT_DIR$/src/stage2/예상대진표.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stage2/행렬의곱.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/완전탐색/모의고사.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stage1/a2016.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stage1/나누어떨어지는숫자배열.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +83,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="570">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stage2/행렬의곱.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stage2/예상대진표.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -141,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/해시/전화번호.java" />
-        <option value="$PROJECT_DIR$/src/해시/완주못한선수.java" />
         <option value="$PROJECT_DIR$/src/탐욕법/체육복.java" />
         <option value="$PROJECT_DIR$/src/스택큐/기능개발.java" />
         <option value="$PROJECT_DIR$/src/정렬/K번째수.java" />
@@ -192,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/stage1/이상한문자만들기.java" />
         <option value="$PROJECT_DIR$/src/섬머코딩2017/소수만들기.java" />
         <option value="$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java" />
+        <option value="$PROJECT_DIR$/src/stage2/행렬의곱.java" />
+        <option value="$PROJECT_DIR$/src/stage2/예상대진표.java" />
       </list>
     </option>
   </component>
@@ -230,13 +232,7 @@
               <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
               <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="섬머코딩2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="섬머코딩2018" type="462c0819:PsiDirectoryNode" />
+              <item name="stage2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,7 +432,7 @@
       <workItem from="1562389999956" duration="9398000" />
       <workItem from="1562503655654" duration="5132000" />
       <workItem from="1562589994047" duration="7378000" />
-      <workItem from="1562748209365" duration="6248000" />
+      <workItem from="1562748209365" duration="8570000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -508,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562602560868</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="알고리즘">
+      <created>1562762951983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562762951983</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353585000" />
+    <option name="totallyTimeSpent" value="355907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -563,14 +566,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="알고리즘" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/정렬/Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java" />
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_161/src.zip!/java/util/AbstractMap.java" />
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_161/src.zip!/java/util/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/스티커모으기.java" />
@@ -828,8 +823,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="570">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stage2/행렬의곱.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stage2/예상대진표.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
