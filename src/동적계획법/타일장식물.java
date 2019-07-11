@@ -13,8 +13,6 @@ public class 타일장식물 {
     }
 
     private long fibo(int a) {
-
-
         if (a <= 2) {
             return 1;
         }

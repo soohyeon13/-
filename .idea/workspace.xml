@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stage2/짝지어제거하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stage2/피보나치수열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/찾아라프로그래밍마에스터/폰켓몬.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/동적계획법/타일장식물.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/동적계획법/타일장식물.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stage1/시저암호.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stage1/약수의합.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stage1/소수찾기.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +83,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stage2/짝지어제거하기.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="408">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stage2/피보나치수열.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/찾아라프로그래밍마에스터/폰켓몬.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/스택큐/기능개발.java" />
-        <option value="$PROJECT_DIR$/src/정렬/K번째수.java" />
         <option value="$PROJECT_DIR$/src/정렬/H_Index.java" />
         <option value="$PROJECT_DIR$/src/해시/위장.java" />
         <option value="$PROJECT_DIR$/src/나라124/Country.java" />
@@ -157,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/스택큐/주식가격.java" />
         <option value="$PROJECT_DIR$/src/스택큐/쇠막대기.java" />
         <option value="$PROJECT_DIR$/src/카카오예선2017/브라이언의고민.java" />
-        <option value="$PROJECT_DIR$/src/동적계획법/타일장식물.java" />
         <option value="$PROJECT_DIR$/src/알고리즘코드.java" />
         <option value="$PROJECT_DIR$/src/알고리즘코드/힙정렬.java" />
         <option value="$PROJECT_DIR$/src/힙/Job.java" />
@@ -192,6 +191,9 @@
         <option value="$PROJECT_DIR$/src/stage2/행렬의곱.java" />
         <option value="$PROJECT_DIR$/src/stage2/예상대진표.java" />
         <option value="$PROJECT_DIR$/src/stage2/짝지어제거하기.java" />
+        <option value="$PROJECT_DIR$/src/동적계획법/타일장식물.java" />
+        <option value="$PROJECT_DIR$/src/stage2/피보나치수열.java" />
+        <option value="$PROJECT_DIR$/src/찾아라프로그래밍마에스터/폰켓몬.java" />
       </list>
     </option>
   </component>
@@ -215,7 +217,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,10 +235,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stage2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
+              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="찾아라프로그래밍마에스터" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,7 +440,9 @@
       <workItem from="1562589994047" duration="7378000" />
       <workItem from="1562748209365" duration="8828000" />
       <workItem from="1562780997350" duration="1152000" />
-      <workItem from="1562811706152" duration="4586000" />
+      <workItem from="1562811706152" duration="4814000" />
+      <workItem from="1562856350677" duration="1770000" />
+      <workItem from="1562866740215" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -518,17 +528,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562766777072</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="알고리즘">
+      <created>1562820056122</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562820056122</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361903000" />
+    <option name="totallyTimeSpent" value="364168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27046978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -573,8 +590,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="알고리즘" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_161/src.zip!/java/util/HashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/스티커모으기.java" />
     <entry file="file://$PROJECT_DIR$/src/완전탐색/소수찾기.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -625,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/동적계획법/타일장식물.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -799,6 +807,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/동적계획법/타일장식물.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stage1/소수찾기.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -850,8 +865,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stage2/짝지어제거하기.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="408">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stage2/피보나치수열.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/찾아라프로그래밍마에스터/폰켓몬.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
