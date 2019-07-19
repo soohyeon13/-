@@ -2,7 +2,6 @@ package 카카오예선;
 
 public class 컬러링북 {
     boolean[][] pathWay;
-    int[][]
     public int[] solution(int m, int n, int[][] picture) {
         int numberOfArea = 0;
         int maxSizeOfOneArea = 0;

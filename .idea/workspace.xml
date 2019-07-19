@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sw1/Solution2072.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw1/Solution2071.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/알고리즘/동적계획법/타일장식물.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/알고리즘/동적계획법/타일장식물.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/알고리즘/카카오예선/브라이언의고민.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/알고리즘/카카오예선/브라이언의고민.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/카카오예선/컬러링북.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/카카오예선/컬러링북.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/statge3/하노이탑.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sw1/Solution2072.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="265">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sw1/Solution2071.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -142,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/힙/hot.java" />
         <option value="$PROJECT_DIR$/src/힙/라면공장.java" />
         <option value="$PROJECT_DIR$/src/동적계획법/N으로표현.java" />
         <option value="$PROJECT_DIR$/src/스택큐/주식가격.java" />
@@ -193,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/sw1/홀수.java" />
         <option value="$PROJECT_DIR$/src/카카오예선/컬러링북.java" />
         <option value="$PROJECT_DIR$/src/sw1/Solution2072.java" />
+        <option value="$PROJECT_DIR$/src/sw1/Solution2071.java" />
       </list>
     </option>
   </component>
@@ -473,7 +484,7 @@
       <workItem from="1563166540939" duration="13386000" />
       <workItem from="1563365248166" duration="2747000" />
       <workItem from="1563457016712" duration="5586000" />
-      <workItem from="1563539746781" duration="2988000" />
+      <workItem from="1563539746781" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -594,16 +605,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563540998117</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="sw expert academy">
+      <created>1563542826222</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563542826222</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394415000" />
+    <option name="totallyTimeSpent" value="395186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2097166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2097166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,7 +631,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28113878" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28113878" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.4161932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,10 +665,10 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="알고리즘(조건 범위에 대한 이해를 더하자)" />
     <MESSAGE value="알고리즘" />
-    <option name="LAST_COMMIT_MESSAGE" value="알고리즘" />
+    <MESSAGE value="sw expert academy" />
+    <option name="LAST_COMMIT_MESSAGE" value="sw expert academy" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/알고리즘코드.java" />
     <entry file="file://$PROJECT_DIR$/src/힙/Job.java" />
     <entry file="file://$PROJECT_DIR$/src/동적계획법/N으로표현.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -927,7 +946,7 @@
     <entry file="file://$PROJECT_DIR$/src/statge3/하노이탑.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,8 +972,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sw1/Solution2072.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="265">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw1/Solution2071.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
