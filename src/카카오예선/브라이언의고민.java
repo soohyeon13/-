@@ -9,22 +9,24 @@ public class 브라이언의고민 {
     public String solution(String sentence) {
         String answer = "";
         char[] sentenceList;
-        int index =0;
-        ArrayList<Character> word = new ArrayList<>();
-        Queue<Character> firstRule = new LinkedList<>();
-        Queue<Character> secondRule = new LinkedList<>();
+        int flag = 0;
 
         sentenceList = sentence.toCharArray();
+        LinkedList<Character> list = new LinkedList<>();
+        Queue<Character> decision = new LinkedList<>();
 
         for (int i = 0; i < sentenceList.length; i++) {
             if (upperCase(sentenceList[i])) {
-                word.add(sentenceList[i]);
-                index++;
-            }else {
-                if (index ==0) {
-                    secondRule.offer(sentenceList[i]);
+                list.add(sentenceList[i]);
+            } else if (lowerCase(sentenceList[i])) {
+                if (flag == 0) {
+                    decision.offer(sentenceList[i]);
+                } else if (decision.peek() != sentenceList[i]){
+                    answer = "invalid";
+                    break;
                 }
             }
+
         }
 
 
