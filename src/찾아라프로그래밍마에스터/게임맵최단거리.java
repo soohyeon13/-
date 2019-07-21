@@ -45,8 +45,6 @@ public class 게임맵최단거리 {
                 }
             }
         }
-
-
         return -1;
     }
 }
