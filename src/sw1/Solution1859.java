@@ -14,17 +14,26 @@ public class Solution1859 {
 
         for (int i = 0; i < testCase; i++) {
             int index = scanner.nextInt();
+            int sum =0;
             numList = new int[index];
-            int num = scanner.nextInt();
-            list.add(num);
-            for (int j = 1; j < numList.length; j++) {
-                num = scanner.nextInt();
-                if (list.peek() > num) {
-                    list.poll();
-                }else if (list.peek() <= num) {
+            for (int j = 0; j < numList.length; j++) {
+                int num = scanner.nextInt();
+                numList[j] = num;
+            }
+            list.offer(numList[numList.length-1]);
 
+            for (int j = numList.length-2; j >= 0; j--) {
+                if (list.peek() > numList[j]) {
+                    list.offer(numList[j]);
+                    int a =list.peek();
+                    sum += (a-numList[j]);
+                }else {
+                    list.clear();
+                    list.offer(numList[j]);
                 }
             }
+            System.out.println("#"+(i+1) + " " + sum);
+            list.clear();
         }
     }
 }
