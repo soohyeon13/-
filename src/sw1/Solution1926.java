@@ -12,7 +12,7 @@ public class Solution1926 {
         String[] numList = new String[test];
         String result = "";
         for (int i = 0; i <test ; i++) {
-            numList[i] = String.valueOf(i+1);
+            numList[i] = Integer.toString(i+1);
         }
         for (String a :
                 numList) {
