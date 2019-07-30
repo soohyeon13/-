@@ -2,7 +2,6 @@ package sw1;
 
 import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Solution1984 {
     public static void main(String[] args) throws IOException {
@@ -15,8 +14,27 @@ public class Solution1984 {
             st = new StringTokenizer(br.readLine(), " ");
             int min =10000;
             int max =0;
+            int sum = 0;
+            long avg;
+            for (int j = 0; j < 10; j++) {
+                int a =  Integer.parseInt(st.nextToken());
+                if (min > a) {
+                    min =a;
+                }
+                if (max < a) {
+                    max = a;
+                }
+                sum += a;
+            }
+            sum -= (min+max);
+            avg = Math.round(sum/8.0);
+            bw.write("#" + i + " " + avg + "\n");
         }
-//        List<Integer> list;
+        bw.close();
+        br.close();
+    }
+}
+//    List<Integer> list;
 //        for (int i = 1; i <= T; i++) {
 ////            st = new StringTokenizer(br.readLine(), " ");
 //            list = Arrays.stream(br.readLine().split(" "))
@@ -31,7 +49,4 @@ public class Solution1984 {
 //            bw.write("#" + i + " " + Math.floorDiv(sum, 8) + "\n");
 //        }
 
-        bw.close();
-        br.close();
-    }
-}
+
