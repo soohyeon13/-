@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sw1/Solution7964.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/DigPow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/Kyu6ToCamelCaes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/SquareDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/TenMinWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/VaildBraces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinpractice/K번째수.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlinpractice/연습문제1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/윈터코딩2018/쿠키구입.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/이분탐색/예산.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/Solution5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/가사검색.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/괄호변환.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/문자열압축.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/자물쇠와열쇠.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘.iml" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,121 +42,10 @@
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../알고리즘\exportToHTML" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/섬머코딩2017/점프와순간이동.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/찾아라프로그래밍마에스터/게임맵최단거리.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw1/Solution2001.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw1/Solution1984.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sw1/Solution1859.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sw1/Solution7964.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/카카오예선/컬러링북.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="53" column="97" selection-start-line="53" selection-start-column="97" selection-end-line="53" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statge3/최고의집합.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/윈터코딩2018/방문길이.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stage1/문자열정수.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -156,63 +62,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/동적계획법/정수삼각형.java" />
-        <option value="$PROJECT_DIR$/src/동적계획법/등굣길.java" />
-        <option value="$PROJECT_DIR$/src/동적계획법/카드게임.java" />
-        <option value="$PROJECT_DIR$/src/카카오예선/오픈채팅방.java" />
-        <option value="$PROJECT_DIR$/src/나라124/Gugudan.java" />
-        <option value="$PROJECT_DIR$/src/나라124/arr_Gugudan.java" />
-        <option value="$PROJECT_DIR$/src/나라124/Solution2.java" />
-        <option value="$PROJECT_DIR$/src/나라124/Solution3.java" />
-        <option value="$PROJECT_DIR$/src/나라124/Solution1.java" />
-        <option value="$PROJECT_DIR$/src/나라124/Solution4.java" />
-        <option value="$PROJECT_DIR$/src/탐욕법/큰수만들기.java" />
-        <option value="$PROJECT_DIR$/src/힙/더맵게.java" />
-        <option value="$PROJECT_DIR$/src/탐욕법/구명보트.java" />
-        <option value="$PROJECT_DIR$/src/나라124/Solution.java" />
-        <option value="$PROJECT_DIR$/src/윈터코딩2018/Solution.java" />
-        <option value="$PROJECT_DIR$/src/윈터코딩2018/스킬트리.java" />
-        <option value="$PROJECT_DIR$/src/stage1/a2016.java" />
-        <option value="$PROJECT_DIR$/src/stage1/나누어떨어지는숫자배열.java" />
-        <option value="$PROJECT_DIR$/src/stage1/문자열내맘대로정열.java" />
-        <option value="$PROJECT_DIR$/src/stage1/문자열정수.java" />
-        <option value="$PROJECT_DIR$/src/stage1/시저암호.java" />
-        <option value="$PROJECT_DIR$/src/stage1/약수의합.java" />
-        <option value="$PROJECT_DIR$/src/stage1/소수찾기.java" />
-        <option value="$PROJECT_DIR$/src/stage1/이상한문자만들기.java" />
-        <option value="$PROJECT_DIR$/src/섬머코딩2017/소수만들기.java" />
-        <option value="$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java" />
-        <option value="$PROJECT_DIR$/src/stage2/행렬의곱.java" />
-        <option value="$PROJECT_DIR$/src/stage2/예상대진표.java" />
-        <option value="$PROJECT_DIR$/src/stage2/짝지어제거하기.java" />
-        <option value="$PROJECT_DIR$/src/동적계획법/타일장식물.java" />
-        <option value="$PROJECT_DIR$/src/stage2/피보나치수열.java" />
-        <option value="$PROJECT_DIR$/src/찾아라프로그래밍마에스터/폰켓몬.java" />
-        <option value="$PROJECT_DIR$/src/섬머코딩2017/기지국설치.java" />
-        <option value="$PROJECT_DIR$/src/statge3/최고의집합.java" />
-        <option value="$PROJECT_DIR$/src/윈터코딩2018/방문길이.java" />
-        <option value="$PROJECT_DIR$/src/카카오예선/브라이언의고민.java" />
-        <option value="$PROJECT_DIR$/src/stage1/홀수.java" />
-        <option value="$PROJECT_DIR$/src/statge3/하노이탑.java" />
-        <option value="$PROJECT_DIR$/src/sw1/홀수.java" />
-        <option value="$PROJECT_DIR$/src/카카오예선/컬러링북.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution2072.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution2071.java" />
-        <option value="$PROJECT_DIR$/src/탐욕법/단속카메라.java" />
-        <option value="$PROJECT_DIR$/src/섬머코딩2017/점프와순간이동.java" />
-        <option value="$PROJECT_DIR$/src/찾아라프로그래밍마에스터/게임맵최단거리.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution1926.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution1989.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution2001.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution1984.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution1859.java" />
-        <option value="$PROJECT_DIR$/src/sw1/Solution7964.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -220,78 +69,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="755" />
-    <option name="width" value="1180" />
-    <option name="height" value="1040" />
-  </component>
+  <component name="ProjectId" id="1Ry7XgLRgWlBj4wg0h6UTRJIJGn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sw1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="섬머코딩2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="섬머코딩2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="윈터코딩2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="찾아라프로그래밍마에스터" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="카카오예선" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="알고리즘" type="b2602c69:ProjectViewProjectNode" />
-              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="탐욕법" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -312,26 +95,40 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="힙" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Solution7964">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="문자열압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="카카오2020.문자열압축" />
+      <module name="알고리즘" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="카카오2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codewars.Main" />
+      <module name="알고리즘" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution1859" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw1.Solution1859" />
       <module name="알고리즘" />
@@ -345,34 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw1.Solution1926" />
-      <module name="알고리즘" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution1984" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw1.Solution1984" />
-      <module name="알고리즘" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1989" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw1.Solution1989" />
       <module name="알고리즘" />
       <extension name="coverage">
         <pattern>
@@ -399,13 +170,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.문자열압축" />
         <item itemvalue="Application.Solution7964" />
         <item itemvalue="Application.Solution1859" />
         <item itemvalue="Application.Solution1984" />
-        <item itemvalue="Application.Solution1989" />
-        <item itemvalue="Application.Solution1926" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -557,6 +340,23 @@
       <workItem from="1563765421579" duration="6922000" />
       <workItem from="1563866897894" duration="16000" />
       <workItem from="1564434251293" duration="19414000" />
+      <workItem from="1570627532622" duration="36000" />
+      <workItem from="1570793674866" duration="1677000" />
+      <workItem from="1571846108332" duration="35000" />
+      <workItem from="1573114512328" duration="1767000" />
+      <workItem from="1573275037175" duration="13856000" />
+      <workItem from="1574584468926" duration="3449000" />
+      <workItem from="1574598620896" duration="3588000" />
+      <workItem from="1574664216403" duration="10008000" />
+      <workItem from="1574930860441" duration="9817000" />
+      <workItem from="1575017743742" duration="38000" />
+      <workItem from="1575017812960" duration="858000" />
+      <workItem from="1575101348765" duration="989000" />
+      <workItem from="1575126957711" duration="1186000" />
+      <workItem from="1575177369813" duration="3413000" />
+      <workItem from="1575212883493" duration="1621000" />
+      <workItem from="1575218214708" duration="2291000" />
+      <workItem from="1575260834418" duration="1911000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -771,85 +571,21 @@
     <option name="localTasksCounter" value="31" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439215000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="604" y="0" width="944" height="832" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20135747" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27896994" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.4113475" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.41985816" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.34875444" />
-      <window_info anchor="bottom" id="Tail" order="14" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17919463" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32977304" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28113878" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.4161932" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.41985816" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.34875444" />
-      <window_info anchor="bottom" id="Tail" order="14" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -864,440 +600,52 @@
     <MESSAGE value="sw" />
     <option name="LAST_COMMIT_MESSAGE" value="sw" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/나라124/Solution2.java" />
-    <entry file="file://$PROJECT_DIR$/src/나라124/Solution1.java" />
-    <entry file="file://$PROJECT_DIR$/src/나라124/Solution4.java" />
-    <entry file="file://$PROJECT_DIR$/src/스택큐/기능개발.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/동적계획법/카드게임.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/나라124/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/동적계획법/등굣길.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/동적계획법/정수삼각형.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/탐욕법/큰수만들기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/탐욕법/구명보트.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/힙/더맵게.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/정렬/가장큰수.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/힙/디스크컨트롤러.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/윈터코딩2018/스킬트리.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/문자열내맘대로정열.java" />
-    <entry file="file://$PROJECT_DIR$/src/완전탐색/모의고사.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/a2016.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/나누어떨어지는숫자배열.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/시저암호.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/약수의합.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/동적계획법/타일장식물.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/소수찾기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/섬머코딩2017/소수만들기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/섬머코딩2018/영어끝말잇기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage2/행렬의곱.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage2/예상대진표.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage2/짝지어제거하기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage2/피보나치수열.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/홀수.java" />
-    <entry file="file://$PROJECT_DIR$/src/찾아라프로그래밍마에스터/폰켓몬.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/카카오예선/브라이언의고민.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/statge3/하노이탑.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution2072.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/이상한문자만들기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/카카오예선/오픈채팅방.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/섬머코딩2017/기지국설치.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/function/ToIntFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution2071.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/탐욕법/단속카메라.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/섬머코딩2017/점프와순간이동.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/statge3/최고의집합.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/윈터코딩2018/방문길이.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stage1/문자열정수.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution1926.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution1989.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/찾아라프로그래밍마에스터/게임맵최단거리.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution2001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/카카오예선/컬러링북.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="53" column="97" selection-start-line="53" selection-start-column="97" selection-end-line="53" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution1984.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution1859.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sw1/Solution7964.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>알고리즘</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="941" y="487" width="304" height="225" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575179931015">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="2824" y="472" width="304" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575018143594" />
+    <state x="941" y="487" width="304" height="225" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179931015" />
+    <state x="676" y="258" width="824" height="691" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1575179927286">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="676" y="258" width="824" height="691" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179927286" />
+    <state x="871" y="361" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575179926126">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="871" y="361" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179926126" />
+    <state width="1796" height="250" key="GridCell.Tab.0.bottom" timestamp="1575221987607">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1796" height="250" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1280.1024@70.27.1850.1053" timestamp="1575221987607" />
+    <state width="1796" height="225" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575214512847" />
+    <state width="1796" height="250" key="GridCell.Tab.0.center" timestamp="1575221987607">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1796" height="250" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1280.1024@70.27.1850.1053" timestamp="1575221987607" />
+    <state width="1796" height="225" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575214512846" />
+    <state width="1796" height="250" key="GridCell.Tab.0.left" timestamp="1575221987607">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1796" height="250" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1280.1024@70.27.1850.1053" timestamp="1575221987607" />
+    <state width="1796" height="225" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575214512846" />
+    <state width="1796" height="250" key="GridCell.Tab.0.right" timestamp="1575221987607">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1796" height="250" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1280.1024@70.27.1850.1053" timestamp="1575221987607" />
+    <state width="1796" height="225" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575214512846" />
+    <state x="600" y="237" width="1022" height="737" key="SettingsEditor" timestamp="1575179789852">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="2470" y="215" width="1022" height="737" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575018125045" />
+    <state x="600" y="237" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179789852" />
+    <state x="351" y="100" width="1278" height="913" key="new project wizard" timestamp="1575103122382">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="351" y="100" width="1278" height="913" key="new project wizard/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575103122382" />
+    <state x="2589" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1575017778007">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2589" y="241" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575017778007" />
   </component>
 </project>
