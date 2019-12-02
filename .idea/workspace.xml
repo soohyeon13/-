@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/DigPow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/Kyu6ToCamelCaes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/SquareDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/TenMinWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/VaildBraces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlinpractice/K번째수.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlinpractice/연습문제1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/윈터코딩2018/쿠키구입.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/이분탐색/예산.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/Solution4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/Solution5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/가사검색.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/괄호변환.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/문자열압축.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/자물쇠와열쇠.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/WhichAreIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/알고리즘.iml" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codewars/ValidBraces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars/ValidBraces.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +338,7 @@
       <workItem from="1575177369813" duration="3413000" />
       <workItem from="1575212883493" duration="1621000" />
       <workItem from="1575218214708" duration="2291000" />
-      <workItem from="1575260834418" duration="1911000" />
+      <workItem from="1575260834418" duration="6906000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -568,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564510653262</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="codewars">
+      <created>1575263659117</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1575263659117</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +587,8 @@
     <MESSAGE value="생각의 반전" />
     <MESSAGE value="알고리즘" />
     <MESSAGE value="sw" />
-    <option name="LAST_COMMIT_MESSAGE" value="sw" />
+    <MESSAGE value="codewars" />
+    <option name="LAST_COMMIT_MESSAGE" value="codewars" />
   </component>
   <component name="WindowStateProjectService">
     <state x="941" y="487" width="304" height="225" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575179931015">
@@ -610,6 +600,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="676" y="258" width="824" height="691" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179927286" />
+    <state x="980" y="133" width="839" height="842" key="CommitChangelistDialog2" timestamp="1575263658913">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="980" y="133" width="839" height="842" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1575263658913" />
     <state x="871" y="361" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575179926126">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -639,6 +633,10 @@
     </state>
     <state x="2470" y="215" width="1022" height="737" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575018125045" />
     <state x="600" y="237" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179789852" />
+    <state x="1000" y="285" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1575263660981">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1000" y="285" width="800" height="538" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1575263660981" />
     <state x="351" y="100" width="1278" height="913" key="new project wizard" timestamp="1575103122382">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
