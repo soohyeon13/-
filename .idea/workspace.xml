@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codewars/ASum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/BitCounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/EnoughIsEnough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/FindTheMissingLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/NumberOfTrallingZerosOfN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/DirectionsReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/GapInPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/MergedStringChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/PigLatin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codewars/TopWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codewars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -346,6 +346,16 @@
       <workItem from="1575284973615" duration="6806000" />
       <workItem from="1575296844742" duration="2572000" />
       <workItem from="1575362906750" duration="4672000" />
+      <workItem from="1575531787663" duration="6375000" />
+      <workItem from="1575622854246" duration="3942000" />
+      <workItem from="1575649470357" duration="628000" />
+      <workItem from="1575799625180" duration="6247000" />
+      <workItem from="1575820354998" duration="2866000" />
+      <workItem from="1575825748090" duration="2765000" />
+      <workItem from="1575879383054" duration="692000" />
+      <workItem from="1576072691437" duration="1649000" />
+      <workItem from="1576131959286" duration="1606000" />
+      <workItem from="1576169235083" duration="2081000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -571,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575271162316</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="codewars">
+      <created>1575538915971</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538915971</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,9 +631,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="676" y="258" width="824" height="691" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179927286" />
-    <state x="980" y="133" width="839" height="842" key="CommitChangelistDialog2" timestamp="1575271162215">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="2864" y="109" width="839" height="842" key="CommitChangelistDialog2" timestamp="1575538915761">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2864" y="109" key="CommitChangelistDialog2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575538915761" />
     <state x="980" y="133" width="839" height="842" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1575271162215" />
     <state x="871" y="361" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575179926126">
       <screen x="70" y="27" width="1850" height="1053" />
@@ -651,14 +669,19 @@
     </state>
     <state x="2470" y="215" width="1022" height="737" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575018125045" />
     <state x="600" y="237" key="SettingsEditor/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575179789852" />
-    <state x="1000" y="285" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1575271164436">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="2885" y="265" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1575538917899">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2885" y="265" key="Vcs.Push.Dialog.v2/70.27.1850.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1575538917899" />
     <state x="1000" y="285" width="800" height="538" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1575271164436" />
     <state x="351" y="100" width="1278" height="913" key="new project wizard" timestamp="1575103122382">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="351" y="100" width="1278" height="913" key="new project wizard/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1575103122382" />
+    <state x="1069" y="250" key="run.anything.popup" timestamp="1575803913778">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1069" y="250" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1575803913778" />
     <state x="2589" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1575017778007">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
