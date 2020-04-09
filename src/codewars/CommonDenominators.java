@@ -9,6 +9,7 @@ public class CommonDenominators {
             lcm = getLcm(lcm,lst[i][1]);
 
         }
+        return "";
     }
 
     private static long getLcm(long lcm, long l) {

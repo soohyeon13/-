@@ -12,7 +12,7 @@ public class TopWords {
         String[] word = s.toLowerCase().split(" ");
         for (int i = 0; i < word.length; i++) {
             if (!map.containsKey(word[i])) map.put(word[i],1);
-            else map.put(word[i]
         }
+        return wordList;
     }
 }
