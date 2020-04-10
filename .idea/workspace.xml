@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codewars/BefungeInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codewars/TCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num11052.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num2309.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num3085.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/외벽점검.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num11047.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1202.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num12886.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num16928.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1697.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1790.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1931.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num9019.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codewars/CommonDenominators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars/CommonDenominators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codewars/DirectionsReduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars/DirectionsReduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codewars/TopWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codewars/TopWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +38,6 @@
         <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>tostring</find>
-      <find>toSt</find>
-      <find>toS</find>
-      <find>toString</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -92,67 +83,67 @@
       <recent name="힙" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Num3085Kt">
-    <configuration name="문자열압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="카카오2020.문자열압축" />
-      <module name="알고리즘" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="카카오2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codewars.Main" />
-      <module name="알고리즘" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Num11052Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Num1790Kt">
+    <configuration name="Num11047Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num11052Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num11047Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num2309Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Num1202Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num2309Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num1202Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num3085Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Num12886Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num3085Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num12886Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num1790Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="알고리즘" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num1790Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num9019Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="알고리즘" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num9019Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Num3085Kt" />
-        <item itemvalue="Kotlin.Num2309Kt" />
-        <item itemvalue="Kotlin.Num11052Kt" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.문자열압축" />
+        <item itemvalue="Kotlin.Num1790Kt" />
+        <item itemvalue="Kotlin.Num1202Kt" />
+        <item itemvalue="Kotlin.Num12886Kt" />
+        <item itemvalue="Kotlin.Num9019Kt" />
+        <item itemvalue="Kotlin.Num11047Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +348,8 @@
       <workItem from="1576592557565" duration="71000" />
       <workItem from="1577285984571" duration="19000" />
       <workItem from="1586327990727" duration="10590000" />
-      <workItem from="1586419874177" duration="6752000" />
+      <workItem from="1586419874177" duration="14062000" />
+      <workItem from="1586516410345" duration="12847000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -618,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576343007190</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="백준 알고리즘">
+      <created>1586427276887</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1586427276887</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,28 +647,37 @@
     <MESSAGE value="알고리즘" />
     <MESSAGE value="sw" />
     <MESSAGE value="codewars" />
-    <option name="LAST_COMMIT_MESSAGE" value="codewars" />
+    <MESSAGE value="백준 알고리즘" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 알고리즘" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="871" height="236" key="GridCell.Tab.0.bottom" timestamp="1586427126421">
+    <state x="997" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1586427276637">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="236" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1586427126421" />
-    <state width="871" height="236" key="GridCell.Tab.0.center" timestamp="1586427126421">
+    <state x="997" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1586427276637" />
+    <state width="871" height="236" key="GridCell.Tab.0.bottom" timestamp="1586531693147">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="236" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1586427126421" />
-    <state width="871" height="236" key="GridCell.Tab.0.left" timestamp="1586427126421">
+    <state width="871" height="236" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1586531693147" />
+    <state width="871" height="236" key="GridCell.Tab.0.center" timestamp="1586531693144">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="236" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1586427126421" />
-    <state width="871" height="236" key="GridCell.Tab.0.right" timestamp="1586427126421">
+    <state width="871" height="236" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1586531693144" />
+    <state width="871" height="236" key="GridCell.Tab.0.left" timestamp="1586531693143">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="236" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1586427126421" />
-    <state width="498" height="449" key="SwitcherDM" timestamp="1586335084788">
+    <state width="871" height="236" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1586531693143" />
+    <state width="871" height="236" key="GridCell.Tab.0.right" timestamp="1586531693145">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1586335084788" />
+    <state width="871" height="236" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1586531693145" />
+    <state width="498" height="449" key="SwitcherDM" timestamp="1586525718787">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1586525718787" />
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1586427278690">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1586427278690" />
   </component>
 </project>
