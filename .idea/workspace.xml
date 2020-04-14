@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/백준/Num1561.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num2343.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/Convert.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/ConvertAlone.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/LockAndKey.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/WordSearching.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/BlockGame.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/LiveEating.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/카카오2020/LoadSearching.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +71,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -353,7 +351,8 @@
       <workItem from="1586681444008" duration="3773000" />
       <workItem from="1586690434532" duration="5579000" />
       <workItem from="1586714965258" duration="2587000" />
-      <workItem from="1586766343265" duration="14281000" />
+      <workItem from="1586766343265" duration="14418000" />
+      <workItem from="1586844142119" duration="16593000" />
     </task>
     <task id="LOCAL-00001" summary="알고리즘">
       <created>1555973240622</created>
@@ -642,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586715014084</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="카카오 알고리즘 프로그래머스">
+      <created>1586789086748</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1586789086748</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,40 +682,57 @@
     <MESSAGE value="백준 알고리즘&#10;(그리디, BFS)" />
     <MESSAGE value="백준 알고리즘&#10;(이분탐색)" />
     <MESSAGE value="프로그래머스&#10;(스택/큐, 정렬)" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스&#10;(스택/큐, 정렬)" />
+    <MESSAGE value="카카오 알고리즘 프로그래머스" />
+    <option name="LAST_COMMIT_MESSAGE" value="카카오 알고리즘 프로그래머스" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1586715013871">
+    <state x="1250" y="272" width="434" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1586847244836">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1586715013871" />
-    <state width="871" height="321" key="GridCell.Tab.0.bottom" timestamp="1586776135020">
+    <state x="1250" y="272" width="434" height="569" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1586847244836" />
+    <state x="1221" y="404" width="492" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586789106510">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="321" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1586776135020" />
-    <state width="871" height="321" key="GridCell.Tab.0.center" timestamp="1586776135018">
+    <state x="1221" y="404" width="492" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/70.27.1850.1053@70.27.1850.1053" timestamp="1586789106510" />
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1586789086578">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="321" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1586776135018" />
-    <state width="871" height="321" key="GridCell.Tab.0.left" timestamp="1586776135015">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1586789086578" />
+    <state width="871" height="321" key="GridCell.Tab.0.bottom" timestamp="1586789108853">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="321" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1586776135015" />
-    <state width="871" height="321" key="GridCell.Tab.0.right" timestamp="1586776135019">
+    <state width="871" height="321" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1586789108853" />
+    <state width="871" height="321" key="GridCell.Tab.0.center" timestamp="1586789108851">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="871" height="321" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1586776135019" />
+    <state width="871" height="321" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1586789108851" />
+    <state width="871" height="321" key="GridCell.Tab.0.left" timestamp="1586789108850">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="871" height="321" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1586789108850" />
+    <state width="871" height="321" key="GridCell.Tab.0.right" timestamp="1586789108852">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="871" height="321" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1586789108852" />
     <state width="498" height="449" key="SwitcherDM" timestamp="1586716092383">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1586716092383" />
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1586715015967">
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1586789087977">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1586715015967" />
-    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1586596411239">
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1586789087977" />
+    <state x="1247" y="463" width="439" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586865645026">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1586596411239" />
+    <state x="1247" y="463" width="439" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1586865645026" />
+    <state x="1136" y="251" key="run.anything.popup" timestamp="1586862925342">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1136" y="251" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1586862925342" />
+    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1586857739049">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1586857739049" />
   </component>
 </project>
