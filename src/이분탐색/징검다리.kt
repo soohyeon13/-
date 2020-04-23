@@ -14,6 +14,7 @@ class 징검다리 {
             for (i in rocks.indices) {
                 if (rocks[i]-prev < mid) {
                     cnt+=1
+
                 }else {
                     prev = rocks[i]
                 }

@@ -1,45 +1,52 @@
 package 백준
 
+private var N = 0
+private var M = 0
+private var answer: Long = 0
+private lateinit var arr: Array<Int>
 fun main() {
     val br = System.`in`.bufferedReader()
     val bw = System.out.bufferedWriter()
-    val cnt = br.readLine().split(" ")
-    val arr = br.readLine().split(" ").toList()
-    val time = checkTime(cnt,arr) -1
-    var remain = cnt[1].toLong()
-    for (i in 0 until cnt[1].toInt()) {
-        remain += time/arr[i].toLong()
+    val n = br.readLine().split(" ").map { it.toInt() }
+    N = n[0]
+    M = n[1]
+    arr = Array(M) { 0 }
+    val list = br.readLine().split(" ").map { it.toInt() }
+    for (i in list.indices) {
+        arr[i] = list[i]
     }
-    val remainChild = cnt[0].toInt() - remain.toInt()
-    var count = 0
+    binarySearch()
+    val time = answer - 1
+    var remain = M.toLong()
+    for (i in arr.indices) {
+        remain += time / arr[i]
+    }
     var index = 0
     while (true) {
-        if (((time+1)/arr[index].toLong()) != (time/arr[index].toLong())) {
-            count +=1
+        if ((time+1)/arr[index] != (time/arr[index])) {
+            remain ++
         }
-        index +=1
-        if (count == remainChild) break
+        index++
+        if (remain.toInt() == N) break
     }
     println(index)
     bw.flush()
 }
 
-fun checkTime(cnt: List<String>, arr: List<String>): Long {
-    var left : Long= 0
-    var right : Long = 2000000000L * 30L
-    var answer : Long= -1
-    var mid : Long= 0
+private fun binarySearch() {
+    var left: Long = 0
+    var right: Long = 60000000000
     while (left <= right) {
-        mid = (left+right)/2
-        var child = cnt[1].toLong()
-        for (i in 0 until  cnt[1].toInt()) {
-            child += mid/arr[i].toInt()
+        var mid = (left + right) / 2
+        var sum: Long = M.toLong()
+        for (i in arr.indices) {
+            sum += mid / arr[i]
         }
-        if (child>=cnt[0].toLong()) {
+        if (sum >= N) {
             answer = mid
-            right = mid-1
-        }else left = mid +1
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
     }
-    return answer
 }
-

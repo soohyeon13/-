@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class 하노이탑 {
-
     public int[][] solution(int n) {
         int[][] answer = {};
         ArrayList<int[]> route = new ArrayList<>();
