@@ -13,13 +13,6 @@ class Level2CandidateKey {
         rowCnt = relation.size
         table = relation.clone()
         var count = 0
-
-        for (bitMask in 0 until (1 shl columnCount)) {
-            if (isSubKey(bitMask) === true) continue
-            if (isUnique(bitMask)) {
-                count++
-                keyList.add(bitMask)
-            }
-        }
+        return 0
     }
 }

@@ -17,7 +17,6 @@ class TripRoute {
                 visit[i] = true
                 route = "${departure},"
                 dfs(tickets,destination,1)
-                println("visit : ${visit.contentDeepToString()}")
                 visit[i] = false
             }
         }
@@ -31,17 +30,15 @@ class TripRoute {
             list.add(route)
             return
         }
-        println("route : $route")
         for (i in tickets.indices) {
             val depart = tickets[i][0]
             val desti = tickets[i][1]
             if (end == depart && !visit[i]) {
                 visit[i] = true
                 dfs(tickets,desti, count+1)
-                println("visit2 : ${visit.contentDeepToString()}")
-                println("route2 : $route")
                 visit[i] = false
                 route = route.substring(0,route.length-4)
+                println(route)
             }
         }
     }

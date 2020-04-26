@@ -10,7 +10,6 @@ class Level2Joystick {
                 answer++
                 continue
             }
-            if ()
 
         }
         return 0
