@@ -10,8 +10,8 @@ fun main() {
         val row = br.readLine().split(" ").map { it.toInt() }
         map[row[0]][row[1]] = row[2]
     }
-    val distance = IntArray(n[0]+1)
-    val check = BooleanArray(n[0]+1)
+    val distance = IntArray(n[0]+1)// 각각의 노드까지의 최단거리가 저장된다.
+    val check = BooleanArray(n[0]+1) // 각각의 노드를 방문했는지 체크
     for (i in 1 until n[0]+1) {
         distance[i] = Int.MAX_VALUE
     }
@@ -19,27 +19,26 @@ fun main() {
     check[v] = true
     for (i in 1 until n[0]+1) {
         if (!check[i] && map[v][i] != 0){
+            //시작노드와 연결되어 있는 노드들의 distance값을 갱신
             distance[i] = map[v][i]
         }
     }
+    println(distance.contentToString())
     for (i in 0 until n[0]-1) {
         var min = Int.MAX_VALUE
         var minIndex = 1
         for (j in 1 until n[0]+1) {
             if (!check[j] && distance[j] != Int.MAX_VALUE) {
-                println("j:$j")
                 if (distance[j] < min) {
                     min = distance[j]
-                    minIndex = i
+                    minIndex = j
                 }
             }
         }
-        println("min : $min minIndex : $minIndex")
         check[minIndex] = true
         for (j in 1 until n[0]+1) {
             if (!check[j] && map[minIndex][j] != 0) {
                 if (distance[j] > distance[minIndex] + map[minIndex][j]) {
-                    println("distance :${distance[j]} minIndex : ${distance[minIndex]} ${map[minIndex][j]}")
                     distance[j] = distance[minIndex] + map[minIndex][j]
                 }
             }
@@ -47,7 +46,11 @@ fun main() {
     }
 
     for (i in 1 until n[0] +1) {
-        println(distance[i])
+        if (distance[i] == Int.MAX_VALUE) {
+            println("INF")
+        }else {
+            println(distance[i])
+        }
     }
     bw.flush()
 }

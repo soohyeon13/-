@@ -7,10 +7,11 @@ class Level3ExternalWall {
         val queue: Queue<IntArray> = LinkedList()
         var answer = Int.MAX_VALUE
         queue.add(weak)
+        val a = n+ weak[0]
         val arr = dist.sortedByDescending { it }
         while (true) {
             val q = queue.poll()
-            if (q[0] > n) break
+            if (q[0] > a) break
             var left = 0
             var right = 0
             var index = 0
@@ -18,6 +19,8 @@ class Level3ExternalWall {
                 if (index >=  arr.size) {
                     break
                 }
+                println(q.contentToString())
+                println("left : $left , right: $right , index :$index")
                 if (q[right] - q[left] <= arr[index]) {
                     right++
                 } else {
@@ -26,6 +29,7 @@ class Level3ExternalWall {
                 }
             }
             answer = if (index + 1 < answer) index + 1 else answer
+            println(answer)
             val list = IntArray(q.size)
             for (i in 1 until q.size) {
                 list[i - 1] = q[i]
@@ -40,8 +44,8 @@ class Level3ExternalWall {
 
 fun main() {
     val sol = Level3ExternalWall()
-    val n = 12
-    val weak = intArrayOf(1, 5, 6, 10)
-    val dist = intArrayOf(1, 2, 3, 4)
+    val n = 50
+    val weak = intArrayOf(1, 5, 10,16,22,25)
+    val dist = intArrayOf(3,4,6)
     println(sol.solution(n, weak, dist))
 }
