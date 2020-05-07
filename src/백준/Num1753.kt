@@ -1,56 +1,42 @@
 package 백준
 
+import java.util.*
+import kotlin.collections.ArrayList
+
+private lateinit var dist: Array<Int>
+private lateinit var edge: Array<ArrayList<Path>>
 fun main() {
     val br = System.`in`.bufferedReader()
     val bw = System.out.bufferedWriter()
     val n = br.readLine().split(" ").map { it.toInt() }
-    val v = br.readLine().toInt()
-    val map = Array(n[0]+1) { IntArray(n[0]+1) { 0 } }
+    val visited = Array(n[0] +1) { false }
+    val k = br.readLine().toInt()
+    val queue  = PriorityQueue<Int>()
+    dist = Array(n[0] + 1) { Int.MAX_VALUE }
+    edge = Array(n[0] + 1) { ArrayList<Path>() }
     for (i in 0 until n[1]) {
         val row = br.readLine().split(" ").map { it.toInt() }
-        map[row[0]][row[1]] = row[2]
+        edge[row[0]].add(Path(row[1], row[2]))
     }
-    val distance = IntArray(n[0]+1)// 각각의 노드까지의 최단거리가 저장된다.
-    val check = BooleanArray(n[0]+1) // 각각의 노드를 방문했는지 체크
-    for (i in 1 until n[0]+1) {
-        distance[i] = Int.MAX_VALUE
-    }
-    distance[v] = 0
-    check[v] = true
-    for (i in 1 until n[0]+1) {
-        if (!check[i] && map[v][i] != 0){
-            //시작노드와 연결되어 있는 노드들의 distance값을 갱신
-            distance[i] = map[v][i]
-        }
-    }
-    println(distance.contentToString())
-    for (i in 0 until n[0]-1) {
-        var min = Int.MAX_VALUE
-        var minIndex = 1
-        for (j in 1 until n[0]+1) {
-            if (!check[j] && distance[j] != Int.MAX_VALUE) {
-                if (distance[j] < min) {
-                    min = distance[j]
-                    minIndex = j
-                }
-            }
-        }
-        check[minIndex] = true
-        for (j in 1 until n[0]+1) {
-            if (!check[j] && map[minIndex][j] != 0) {
-                if (distance[j] > distance[minIndex] + map[minIndex][j]) {
-                    distance[j] = distance[minIndex] + map[minIndex][j]
-                }
+    queue.add(k)
+    dist[k] = 0
+    while (!queue.isEmpty()) {
+        val q = queue.poll()
+        visited[q] = true
+        for (element in edge[q]) {
+            if (dist[element.end] > dist[q] + element.weight) {
+                dist[element.end] = dist[q] + element.weight
+                queue.add(element.end)
             }
         }
     }
-
-    for (i in 1 until n[0] +1) {
-        if (distance[i] == Int.MAX_VALUE) {
-            println("INF")
-        }else {
-            println(distance[i])
-        }
+    for (i in 1 .. n[0]) {
+        if(visited[i]) println(dist[i])
+        else println("INF")
     }
     bw.flush()
 }
+private data class Path(
+        val end: Int,
+        val weight: Int
+)

@@ -19,9 +19,9 @@ class Level4HotelRoom {
     }
     private fun checkRoom(room : Long) {
         if (!map.containsKey(map[room])) {
-            value = map[room]!!
-            arr.add(map[room]!!)
             map[map[room]!!] = map[room]!!+1
+            value = map[room]!! +1
+            arr.add(map[room]!!)
         }else {
             checkRoom(map[room]!!)
             map[room] = value
