@@ -1,40 +1,41 @@
 package 백준
 
+private lateinit var picture : Array<CharArray>
+private lateinit var bigPicture : Array<CharArray>
+private var answer = 0
 fun main() {
     val br = System.`in`.bufferedReader()
     val bw = System.out.bufferedWriter()
-    val range = br.readLine().split(" ").map { it.toInt() }
-    val findArt = Array(range[0]){CharArray(range[1])}
-    val art = Array(range[2]){CharArray(range[3])}
-    for (i in 0 until range[0]) {
+    val (hp,wp,hm,wm) = br.readLine().split(" ").map { it.toInt() }
+    picture = Array(hp){CharArray(wp)}
+    bigPicture = Array(hm){CharArray(wm)}
+    for (i in 0 until hp) {
         val row = br.readLine().toCharArray()
-        for (j in 0 until range[1]) {
-            findArt[i][j] = row[j]
+        for (j in row.indices) {
+            picture[i][j] = row[j]
         }
     }
-    for (i in 0 until range[2]) {
+    for (i in 0 until hm) {
         val row = br.readLine().toCharArray()
-        for (j in 0 until range[3]) {
-            art[i][j] = row[j]
+        for (j in row.indices) {
+            bigPicture[i][j] = row[j]
         }
     }
-    var answer = 0
-    for (i in 0 .. (range[2]-range[0])) {
-        for (j in 0 .. (range[3]-range[1])) {
-            if (art[i][j] == findArt[0][0]) {
-                if (check(i,j,findArt,art)) {
-                    answer++
-                }
+    for (i in 0 ..hm-hp) {
+        for (j in 0 .. wm-wp) {
+            if (bigPicture[i][j] == picture[0][0]) {
+                if (checkPicture(i,j)) answer++
             }
         }
     }
     println(answer)
     bw.flush()
 }
-private fun check(a: Int, b: Int, findArt: Array<CharArray>, art: Array<CharArray>) :Boolean{
-    for (i in findArt.indices) {
-        for (j in findArt[i].indices) {
-            if (art[a+i][b+j] != findArt[i][j]) return false
+
+private fun checkPicture(x :Int , y : Int) : Boolean{
+    for (i in picture.indices) {
+        for (j in picture[i].indices) {
+            if (picture[i][j] != bigPicture[x+i][y+j]) return false
         }
     }
     return true
