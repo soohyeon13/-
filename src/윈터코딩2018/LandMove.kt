@@ -27,6 +27,7 @@ class LandMove {
             }
         }
         dist.forEach { println(it.contentToString()) }
+        return 1
     }
     data class Land(
             val x : Int,
