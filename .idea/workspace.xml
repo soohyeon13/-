@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="섬머코딩 코테 준비(프로그래머스)">
-      <change afterPath="$PROJECT_DIR$/src/백준/Num15649.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num15650.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num16197.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num16198.kt" afterDir="false" />
+    <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/skillcheck4/Solution2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skillcheck4/Solution3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/Num13913.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/Num13913.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/Num14226.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/Num14226.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/백준/Num1697.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/Num1697.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -434,14 +429,7 @@
       <workItem from="1589979812126" duration="118000" />
       <workItem from="1590037554901" duration="13975000" />
       <workItem from="1590058747052" duration="15747000" />
-      <workItem from="1590120511576" duration="16503000" />
-    </task>
-    <task id="LOCAL-00011" summary="알고리즘">
-      <created>1562762951983</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1562762951983</updated>
+      <workItem from="1590120511576" duration="22893000" />
     </task>
     <task id="LOCAL-00012" summary="알고리즘">
       <created>1562766777072</created>
@@ -779,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590125062915</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="섬머코딩 코테 준비(백준)">
+      <created>1590142989361</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1590142989361</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,7 +795,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="알고리즘(조건 범위에 대한 이해를 더하자)" />
     <MESSAGE value="sw expert academy" />
     <MESSAGE value="Comparable 와 Comparator 학습" />
     <MESSAGE value="처음 생각과 반대의 해결법" />
@@ -825,7 +819,8 @@
     <MESSAGE value="시뮬레이션,DP 풀이 (백준)" />
     <MESSAGE value="수학,다익스트라 (백준)" />
     <MESSAGE value="섬머코딩 코테 준비(프로그래머스)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섬머코딩 코테 준비(프로그래머스)" />
+    <MESSAGE value="섬머코딩 코테 준비(백준)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섬머코딩 코테 준비(백준)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1250" y="272" width="434" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1588243549385">
@@ -845,30 +840,30 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1221" y="404" width="492" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/70.27.1850.1053@70.27.1850.1053" timestamp="1586789106510" />
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1590132680667">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1590142989264">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1590132680667" />
-    <state width="919" height="254" key="GridCell.Tab.0.bottom" timestamp="1590142859751">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1590142989264" />
+    <state width="919" height="254" key="GridCell.Tab.0.bottom" timestamp="1590142977508">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1590142859751" />
-    <state width="919" height="254" key="GridCell.Tab.0.center" timestamp="1590142859750">
+    <state width="919" height="254" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1590142977508" />
+    <state width="919" height="254" key="GridCell.Tab.0.center" timestamp="1590142977507">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1590142859750" />
-    <state width="919" height="254" key="GridCell.Tab.0.left" timestamp="1590142859750">
+    <state width="919" height="254" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1590142977507" />
+    <state width="919" height="254" key="GridCell.Tab.0.left" timestamp="1590142977506">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1590142859750" />
-    <state width="919" height="254" key="GridCell.Tab.0.right" timestamp="1590142859750">
+    <state width="919" height="254" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1590142977506" />
+    <state width="919" height="254" key="GridCell.Tab.0.right" timestamp="1590142977507">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1590142859750" />
+    <state width="919" height="254" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1590142977507" />
     <state width="919" height="466" key="GridCell.Tab.1.bottom" timestamp="1590127401182">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -894,10 +889,10 @@
     </state>
     <state width="498" height="437" key="SwitcherDM/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1587925016747" />
     <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1590131149503" />
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1590125064406">
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1590142992574">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1590125064406" />
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1590142992574" />
     <state x="1247" y="463" width="439" height="196" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590128864737">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
