@@ -2,41 +2,38 @@ package 백준
 
 import java.util.*
 
-private var N = 0
-private var answer = 0
-private var count = 0
 fun main() {
     val br = System.`in`.bufferedReader()
     val bw = System.out.bufferedWriter()
-    N = br.readLine().toInt()
-    bfs()
-    println(answer)
-    bw.flush()
-}
-
-private fun bfs() {
-    val queue: Queue<Screen> = LinkedList()
-    queue.add(Screen(1, 0, 0))
+    val s = br.readLine().toInt()
+    val queue : Queue<Screen> = LinkedList()
+    queue.offer(Screen(1,0,0))
+    val visited = Array(1010){BooleanArray(1010)}
+    visited[1][0] = true
+    var answer =0
     while (!queue.isEmpty()) {
         val q = queue.poll()
-        println("$q count : ${count++}")
-        if (q.screenCnt == N) {
+        if (q.screenCnt == s) {
             answer = q.time
             break
         }
-        queue.add(Screen(q.screenCnt, q.screenCnt, q.time + 1))
-        if (q.cliboardCnt != 0) {
-            if (q.screenCnt + q.cliboardCnt <= N) {
-                queue.add(Screen(q.screenCnt + q.cliboardCnt, q.cliboardCnt, q.time + 1))
-            }
+        if (!visited[q.screenCnt][q.screenCnt]) {
+            queue.offer(Screen(q.screenCnt,q.screenCnt,q.time+1))
+            visited[q.screenCnt][q.screenCnt] = true
         }
-        if (q.screenCnt != 1) {
-            queue.add(Screen(q.screenCnt - 1, q.cliboardCnt, q.time + 1))
+        if (q.cliboardCnt != 0 && q.screenCnt + q.cliboardCnt < 1010 && !visited[q.screenCnt+q.cliboardCnt][q.cliboardCnt]) {
+            queue.offer(Screen(q.screenCnt+q.cliboardCnt,q.cliboardCnt,q.time+1))
+            visited[q.screenCnt+q.cliboardCnt][q.cliboardCnt] = true
+        }
+        if (q.screenCnt -1 >=0 && !visited[q.screenCnt-1][q.cliboardCnt]) {
+            queue.offer(Screen(q.screenCnt-1,q.cliboardCnt,q.time+1))
+            visited[q.screenCnt-1][q.cliboardCnt]= true
         }
     }
+    println(answer)
+    bw.flush()
 }
-
-data class Screen(
+private data class Screen(
         var screenCnt: Int,
         var cliboardCnt: Int,
         var time: Int

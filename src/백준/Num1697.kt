@@ -1,31 +1,40 @@
 package 백준
 
-private val positionList = mutableListOf<Int>()
+import java.util.*
+
 fun main() {
     val br = System.`in`.bufferedReader()
     val bw = System.out.bufferedWriter()
-    val position = br.readLine().split(" ")
-    var sister = position[0].toInt()
-    var brother = position[1].toInt()
-    var time = 0
-    var find = true
-    positionList.add(sister)
-    if (sister == brother) println(time)
-    else {
-        while (find) {
-            for (i in positionList.indices) {
-                findRoot(positionList[i])
-            }
-            time += 1
-            if (positionList.contains(brother)) find = false
+    val (n, k) = br.readLine().split(" ").map { it.toInt() }
+    val visited = BooleanArray(100001)
+    val queue: Queue<HideGame> = LinkedList()
+    queue.offer(HideGame(n, 0))
+    visited[n] = true
+    var answer = 0
+    while (!queue.isEmpty()) {
+        val q = queue.poll()
+        if (q.num == k) {
+            answer = q.time
+            break
         }
-        println(time)
+        if (q.num - 1 >= 0 && !visited[q.num - 1]) {
+            queue.offer(HideGame(q.num - 1, q.time + 1))
+            visited[q.num - 1] = true
+        }
+        if (q.num + 1 <= 100000 && !visited[q.num + 1]) {
+            queue.offer(HideGame(q.num + 1, q.time + 1))
+            visited[q.num + 1] = true
+        }
+        if (q.num * 2 <= 100000 && !visited[q.num * 2]) {
+            queue.offer(HideGame(q.num * 2, q.time + 1))
+            visited[q.num * 2] = true
+        }
     }
+    println(answer)
     bw.flush()
 }
 
-private fun findRoot(position: Int) {
-    positionList.add(position - 1)
-    positionList.add(position + 1)
-    positionList.add(position * 2)
-}
+private data class HideGame(
+        val num: Int,
+        val time: Int
+)
