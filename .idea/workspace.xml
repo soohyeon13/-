@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/섬머코딩2020/Solution1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/섬머코딩2020/Solution2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/섬머코딩2020/Solution3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1085.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1475.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num17144.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num1978.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num2917.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/카카오인턴2020/Solution4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/카카오인턴2020/Solution4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -92,54 +95,54 @@
       <command value="priva" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Solution3Kt">
-    <configuration name="Num13913Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Num1475Kt">
+    <configuration name="Num1085Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num13913Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num1085Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num14226Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Num1475Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num14226Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num1475Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num16197Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Num1978Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num16197Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num1978Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num16198Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Num2917Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num16198Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num2917Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Num1475Kt" />
+        <item itemvalue="Kotlin.Num1085Kt" />
+        <item itemvalue="Kotlin.Num1978Kt" />
+        <item itemvalue="Kotlin.Num2917Kt" />
         <item itemvalue="Kotlin.Solution3Kt" />
-        <item itemvalue="Kotlin.Num16198Kt" />
-        <item itemvalue="Kotlin.Num16197Kt" />
-        <item itemvalue="Kotlin.Num13913Kt" />
-        <item itemvalue="Kotlin.Num14226Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -431,14 +434,16 @@
       <workItem from="1590037554901" duration="13975000" />
       <workItem from="1590058747052" duration="15747000" />
       <workItem from="1590120511576" duration="24189000" />
-      <workItem from="1590193486802" duration="12085000" />
-    </task>
-    <task id="LOCAL-00013" summary="알고리즘">
-      <created>1562820056122</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1562820056122</updated>
+      <workItem from="1590193486802" duration="12180000" />
+      <workItem from="1590239208401" duration="57000" />
+      <workItem from="1590419562007" duration="1842000" />
+      <workItem from="1590506147031" duration="11000" />
+      <workItem from="1590686070126" duration="1020000" />
+      <workItem from="1590826628554" duration="3766000" />
+      <workItem from="1590980946305" duration="1204000" />
+      <workItem from="1591082118381" duration="3584000" />
+      <workItem from="1591104891690" duration="1253000" />
+      <workItem from="1591154418770" duration="4134000" />
     </task>
     <task id="LOCAL-00014" summary="알고리즘">
       <created>1562867111968</created>
@@ -776,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590156667405</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="섬머코딩 2020">
+      <created>1590221639848</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1590221639848</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,7 +809,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Comparable 와 Comparator 학습" />
     <MESSAGE value="처음 생각과 반대의 해결법" />
     <MESSAGE value="최단거리(객체지향으로 생각 해보기)" />
     <MESSAGE value="생각의 반전" />
@@ -822,13 +833,14 @@
     <MESSAGE value="섬머코딩 코테 준비(프로그래머스)" />
     <MESSAGE value="섬머코딩 코테 준비(백준)" />
     <MESSAGE value="섬머코딩 코테 준비(프로그래머스 스킬체크 레벨4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섬머코딩 코테 준비(프로그래머스 스킬체크 레벨4)" />
+    <MESSAGE value="섬머코딩 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="섬머코딩 2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1250" y="272" width="434" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1588243549385">
+    <state x="1250" y="272" width="434" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1591085616790">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1250" y="272" width="434" height="576" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1588243549385" />
+    <state x="1250" y="272" width="434" height="583" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1591085616790" />
     <state x="1152" y="27" width="606" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587101659344">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -842,30 +854,30 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1221" y="404" width="492" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/70.27.1850.1053@70.27.1850.1053" timestamp="1586789106510" />
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1590156667300">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1590221639665">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1590156667300" />
-    <state width="919" height="254" key="GridCell.Tab.0.bottom" timestamp="1590207759063">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1590221639665" />
+    <state width="919" height="173" key="GridCell.Tab.0.bottom" timestamp="1591158872512">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1590207759063" />
-    <state width="919" height="254" key="GridCell.Tab.0.center" timestamp="1590207759060">
+    <state width="919" height="173" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1591158872512" />
+    <state width="919" height="173" key="GridCell.Tab.0.center" timestamp="1591158872512">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1590207759060" />
-    <state width="919" height="254" key="GridCell.Tab.0.left" timestamp="1590207759059">
+    <state width="919" height="173" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1591158872512" />
+    <state width="919" height="173" key="GridCell.Tab.0.left" timestamp="1591158872511">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1590207759059" />
-    <state width="919" height="254" key="GridCell.Tab.0.right" timestamp="1590207759062">
+    <state width="919" height="173" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1591158872511" />
+    <state width="919" height="173" key="GridCell.Tab.0.right" timestamp="1591158872512">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="254" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1590207759062" />
+    <state width="919" height="173" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1591158872512" />
     <state width="919" height="466" key="GridCell.Tab.1.bottom" timestamp="1590158181112">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -886,24 +898,28 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="898" y="187" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1588780539424" />
-    <state width="498" height="449" key="SwitcherDM" timestamp="1590206966554">
+    <state width="498" height="449" key="SwitcherDM" timestamp="1591082752533">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="498" height="437" key="SwitcherDM/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1587925016747" />
-    <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1590206966554" />
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1590156668516">
+    <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1591082752533" />
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1590221641302">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1590156668516" />
-    <state x="1247" y="463" width="439" height="196" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590128864737">
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1590221641302" />
+    <state x="1247" y="463" width="439" height="196" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591155846504">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="2734" y="424" width="439" height="196" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698312723" />
-    <state x="1247" y="463" width="449" height="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1590128864737" />
+    <state x="1247" y="463" width="449" height="201" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1591155846504" />
     <state x="1069" y="127" width="751" height="853" key="dock-window-1" timestamp="1590195567369">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1069" y="127" width="751" height="853" key="dock-window-1/70.27.1850.1053@70.27.1850.1053" timestamp="1590195567369" />
+    <state x="632" y="96" width="1278" height="918" key="new project wizard" timestamp="1591086298911">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="632" y="96" width="1278" height="918" key="new project wizard/70.27.1850.1053@70.27.1850.1053" timestamp="1591086298911" />
     <state x="1166" y="317" width="553" height="480" key="refactoring.ChangeSignatureDialog" timestamp="1587469992643">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -913,10 +929,10 @@
     </state>
     <state x="2658" y="218" key="run.anything.popup/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1587922382335" />
     <state x="1136" y="251" width="672" height="680" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1590130321918" />
-    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588924666896">
+    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1591155275905">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1588924666896" />
+    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1591155275905" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

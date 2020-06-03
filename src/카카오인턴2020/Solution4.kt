@@ -19,7 +19,7 @@ class Solution4 {
                 val ny = q.y + dy[i]
                 if (nx < 0 || ny < 0 || nx >= board.size || ny >= board.size) continue
                 if (board[nx][ny] == 1) continue
-                if (i == (q.dir +1)%4 || i == (q.dir-1) %4 ) cur = 500
+                if (i == (q.dir + 1)%4 || i == (q.dir-1) %4 ) cur = 500
                 if (q.dir-1 == -1 && i == 3) cur = 500
                 if (dist[nx][ny] >= q.cost + cur + 100) {
                     dist[nx][ny] = q.cost + cur + 100
