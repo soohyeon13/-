@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/앱데브매칭2020/Solution1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/앱데브매칭2020/Solution2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/앱데브매칭2020/Solution3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/자료구조구현/linkedlist/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/자료구조구현/linkedlist/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/카카오2020/KakakoBlockMove.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/알고리즘/해시/베트스앨범.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/알고리즘/해시/베트스앨범.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/해시/베트스앨범.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/해시/베트스앨범.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/Num13460.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/Num13460.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/Num17144.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/Num17144.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/앱데브매칭2020/Solution1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/앱데브매칭2020/Solution1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -100,7 +95,7 @@
       <command value="priva" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.NWSolutionKt">
+  <component name="RunManager" selected="Kotlin.Num17144Kt">
     <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap" />
       <module name="알고리즘" />
@@ -121,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num1085Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="알고리즘" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num1085Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Num1475Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
@@ -147,14 +129,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num1978Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="Num17144Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num1978Kt" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num17144Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="알고리즘" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="앱데브매칭2020.Solution1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Num17144Kt" />
+        <item itemvalue="Kotlin.Solution1Kt" />
         <item itemvalue="Kotlin.NWSolutionKt" />
         <item itemvalue="Application.Heap" />
         <item itemvalue="Kotlin.Num1475Kt" />
-        <item itemvalue="Kotlin.Num1085Kt" />
-        <item itemvalue="Kotlin.Num1978Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -450,13 +445,11 @@
       <workItem from="1591328523282" duration="2589000" />
       <workItem from="1591364933221" duration="5129000" />
       <workItem from="1591416244371" duration="7460000" />
-    </task>
-    <task id="LOCAL-00015" summary="알고리즘(조건 범위에 대한 이해를 더하자)">
-      <created>1563190969103</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1563190969103</updated>
+      <workItem from="1591428656513" duration="42000" />
+      <workItem from="1591432921465" duration="1220000" />
+      <workItem from="1591508311858" duration="4055000" />
+      <workItem from="1591602910134" duration="3295000" />
+      <workItem from="1591703846226" duration="5459000" />
     </task>
     <task id="LOCAL-00016" summary="알고리즘">
       <created>1563366685268</created>
@@ -794,7 +787,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591159003709</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="2020앱데브매칭">
+      <created>1591428678899</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1591428678900</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +815,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="최단거리(객체지향으로 생각 해보기)" />
     <MESSAGE value="생각의 반전" />
     <MESSAGE value="알고리즘" />
     <MESSAGE value="sw" />
@@ -840,7 +839,8 @@
     <MESSAGE value="섬머코딩 코테 준비(프로그래머스 스킬체크 레벨4)" />
     <MESSAGE value="섬머코딩 2020" />
     <MESSAGE value="백준 풀이(수학)" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 풀이(수학)" />
+    <MESSAGE value="2020앱데브매칭" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020앱데브매칭" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1250" y="272" width="434" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1591370947844">
@@ -860,30 +860,30 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1221" y="404" width="492" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/70.27.1850.1053@70.27.1850.1053" timestamp="1586789106510" />
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1591159003517">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1591428678578">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1591159003517" />
-    <state width="919" height="384" key="GridCell.Tab.0.bottom" timestamp="1591372613904">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1591428678578" />
+    <state width="919" height="716" key="GridCell.Tab.0.bottom" timestamp="1591709336239">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="384" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1591372613904" />
-    <state width="919" height="384" key="GridCell.Tab.0.center" timestamp="1591372613904">
+    <state width="919" height="716" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1591709336239" />
+    <state width="919" height="716" key="GridCell.Tab.0.center" timestamp="1591709336236">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="384" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1591372613904" />
-    <state width="919" height="384" key="GridCell.Tab.0.left" timestamp="1591372613903">
+    <state width="919" height="716" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1591709336236" />
+    <state width="919" height="716" key="GridCell.Tab.0.left" timestamp="1591709336235">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="384" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1591372613903" />
-    <state width="919" height="384" key="GridCell.Tab.0.right" timestamp="1591372613904">
+    <state width="919" height="716" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1591709336235" />
+    <state width="919" height="716" key="GridCell.Tab.0.right" timestamp="1591709336238">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="279" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1588698900021" />
-    <state width="919" height="384" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1591372613904" />
+    <state width="919" height="716" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1591709336238" />
     <state width="919" height="466" key="GridCell.Tab.1.bottom" timestamp="1590158181112">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -909,10 +909,10 @@
     </state>
     <state width="498" height="437" key="SwitcherDM/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1587925016747" />
     <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1591165777802" />
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1591159005215">
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1591428680564">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1591159005215" />
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1591428680564" />
     <state x="1247" y="463" width="439" height="196" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591155846504">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
