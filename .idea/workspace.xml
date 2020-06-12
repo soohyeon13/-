@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/백준/Num16948.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num17071.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/백준/Num1748.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/백준/Num14502.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +93,20 @@
       <command value="priva" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Num17071Kt">
+  <component name="RunManager" selected="Kotlin.Num14502Kt">
+    <configuration name="Num14502Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="알고리즘" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="백준.Num14502Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Num1476Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
@@ -135,19 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num17143Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="알고리즘" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="백준.Num17143Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Num1748Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="알고리즘" />
       <option name="VM_PARAMETERS" />
@@ -163,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Num14502Kt" />
         <item itemvalue="Kotlin.Num17071Kt" />
         <item itemvalue="Kotlin.Num16948Kt" />
         <item itemvalue="Kotlin.Num1748Kt" />
         <item itemvalue="Kotlin.Num1476Kt" />
-        <item itemvalue="Kotlin.Num17143Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -461,14 +459,8 @@
       <workItem from="1591805853828" duration="2711000" />
       <workItem from="1591857245188" duration="1317000" />
       <workItem from="1591879752827" duration="4531000" />
-      <workItem from="1591942317758" duration="6337000" />
-    </task>
-    <task id="LOCAL-00018" summary="sw expert academy">
-      <created>1563542826222</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1563542826222</updated>
+      <workItem from="1591942317758" duration="6362000" />
+      <workItem from="1591967969283" duration="4374000" />
     </task>
     <task id="LOCAL-00019" summary="sw expert academy">
       <created>1563543533613</created>
@@ -806,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591885122900</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="백준 알고리즘 풀이 - 브루트 포스">
+      <created>1591950729259</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1591950729260</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -872,30 +871,30 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1221" y="404" width="492" height="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/70.27.1850.1053@70.27.1850.1053" timestamp="1586789106510" />
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1591885122726">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2" timestamp="1591950729075">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1591885122726" />
-    <state width="919" height="300" key="GridCell.Tab.0.bottom" timestamp="1591950720000">
+    <state x="995" y="27" width="890" height="1053" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1591950729075" />
+    <state width="919" height="300" key="GridCell.Tab.0.bottom" timestamp="1591972316871">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="489" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1591816869264" />
-    <state width="919" height="300" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1591950720000" />
-    <state width="919" height="300" key="GridCell.Tab.0.center" timestamp="1591950719998">
+    <state width="919" height="300" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1591972316871" />
+    <state width="919" height="300" key="GridCell.Tab.0.center" timestamp="1591972316869">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="489" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1591816869264" />
-    <state width="919" height="300" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1591950719998" />
-    <state width="919" height="300" key="GridCell.Tab.0.left" timestamp="1591950719997">
+    <state width="919" height="300" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1591972316869" />
+    <state width="919" height="300" key="GridCell.Tab.0.left" timestamp="1591972316868">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="489" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1591816869263" />
-    <state width="919" height="300" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1591950719997" />
-    <state width="919" height="300" key="GridCell.Tab.0.right" timestamp="1591950719999">
+    <state width="919" height="300" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1591972316868" />
+    <state width="919" height="300" key="GridCell.Tab.0.right" timestamp="1591972316870">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1226" height="489" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1591816869264" />
-    <state width="919" height="300" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1591950719999" />
+    <state width="919" height="300" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1591972316870" />
     <state width="919" height="466" key="GridCell.Tab.1.bottom" timestamp="1590158181112">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -921,10 +920,10 @@
     </state>
     <state width="498" height="437" key="SwitcherDM/70.27.1850.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1587925016747" />
     <state width="498" height="449" key="SwitcherDM/70.27.1850.1053@70.27.1850.1053" timestamp="1591165777802" />
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1591885124158">
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1591950731502">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1591885124158" />
+    <state x="1042" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1591950731502" />
     <state x="1247" y="463" width="439" height="196" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591949769014">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
