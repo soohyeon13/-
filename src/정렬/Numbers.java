@@ -2,7 +2,6 @@ package 정렬;
 
 import java.util.Arrays;
 import java.util.Comparator;
-
 public class Numbers {
     public static String solution(int[] numbers) {
 
