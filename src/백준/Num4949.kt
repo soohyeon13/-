@@ -2,32 +2,69 @@ package 백준
 
 import java.util.*
 
-private lateinit var stack: Stack<Char>
+private lateinit var stack : Stack<Char>
 fun main() {
     val br = System.`in`.bufferedReader()
-    loop@while (true) {
-        val s = br.readLine().toCharArray()
-        if (s[0] =='.') break
-        stack = Stack<Char>()
-        for (i in s.indices) {
-            when(s[i]) {
-                '(' -> stack.push(s[i])
+    val bw = System.out.bufferedWriter()
+    var word = ""
+    while (true) {
+        val s = br.readLine()
+        if (s == ".") break
+        word += s
+    }
+    val arr = word.split(".")
+    loop@for (i in 0 until arr.size-1) {
+        val wordArr = arr[i].toCharArray()
+        stack = Stack()
+        for (j in wordArr.indices) {
+            when(wordArr[j]) {
+                '(' -> stack.push(wordArr[j])
                 ')' -> {
-                    if (isCheckRight('(')) stack.pop()
-                    else continue@loop
+                    if(!isSmallCheck(wordArr[j])) {
+                        continue@loop
+                    }
                 }
-                '[' -> stack.push(s[i])
+                '[' -> stack.push(wordArr[j])
                 ']' -> {
-                    if (isCheckRight('[')) stack.pop()
-                    else continue@loop
+                    if (!isBigCheck(wordArr[j])) {
+                        continue@loop
+                    }
                 }
             }
         }
         if (stack.isEmpty()) println("yes")
+        else println("no")
+    }
+    bw.flush()
+}
+
+private fun isSmallCheck(w : Char) : Boolean {
+    if (isEmptyCheck()) {
+        printNo()
+        return false
+    }
+    if (stack.peek() == '('){
+        stack.pop()
+        return true
+    }else {
+        printNo()
+        return false
     }
 }
-private fun isCheckRight(word : Char) : Boolean {
-    if (!stack.isEmpty() && stack.peek() == word) return true
-    println("no")
-    return false
+
+private fun isBigCheck(w : Char) : Boolean {
+    if (isEmptyCheck()) {
+        printNo()
+        return false
+    }
+    if (stack.peek() == '['){
+        stack.pop()
+        return true
+    }else {
+        printNo()
+        return false
+    }
 }
+
+private fun isEmptyCheck() : Boolean = stack.isEmpty()
+private fun printNo() = println("no")
