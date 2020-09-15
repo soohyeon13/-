@@ -1,45 +1,95 @@
 package 백준
 
 import java.util.*
-import kotlin.collections.ArrayList
+import kotlin.math.min
 
+private val dx = intArrayOf(-1, 0, 1, 0)
+private val dy = intArrayOf(0, 1, 0, -1)
+private lateinit var forestMap: Array<Array<String>>
+private val wolfPosition = IntArray(2)
+private val housePosition = IntArray(2)
 fun main() {
-    val br = System.`in`.bufferedReader()
-    val bw = System.out.bufferedWriter()
-    val (n,k) = br.readLine().split(" ").map { it.toInt() }
-    val arr = ArrayList<Int>()
-    val visited = BooleanArray(361)
-    val a = br.readLine().split(" ").map { it.toInt() }
-    for (i in 0 until n) {
-        arr.add(a[i])
-    }
-    val b = br.readLine().split(" ").map { it.toInt() }
-    val queue : Queue<Int> = LinkedList()
-    for (element in arr) {
-        queue.offer(element)
-        visited[element] = true
-    }
-    while (!queue.isEmpty()) {
-        val q = queue.poll()
-        val size = arr.size
-        for (i in 0 until size) {
-            val p = (q + arr[i]) % 360
-            val m = (Math.abs(q-arr[i])) % 360
-            if (!visited[p]) {
-                visited[p] = true
-                queue.offer(p)
-                arr.add(p)
-            }
-            if (!visited[m]) {
-                visited[m] = true
-                queue.offer(m)
-                arr.add(m)
+    val input = System.`in`.bufferedReader()
+    val (N, M) = input.readLine().split(" ").map { it.toInt() }
+    forestMap = Array(N) { Array(M) { "" } }
+    val treeQueue: Queue<TreePosition> = LinkedList()
+    val dist = Array(N) { IntArray(M) { -1 } }
+    val priorityTreeQueue = PriorityQueue<PriorityTree>(Comparator<PriorityTree> { t1, t2 ->
+        if (t1.minDistance > t2.minDistance) -1
+        else 1
+    })
+    for (i in 0 until N) {
+        val row = input.readLine().toCharArray().map { it.toString() }
+        for (j in row.indices) {
+            forestMap[i][j] = row[j]
+            when (row[j]) {
+                "+" -> {
+                    dist[i][j] = 0
+                    treeQueue.add(TreePosition(i, j))
+                }
+                "V" -> {
+                    wolfPosition[0] = i
+                    wolfPosition[1] = j
+                }
+                "J" -> {
+                    housePosition[0] = i
+                    housePosition[1] = j
+                }
+                else -> {
+                }
             }
         }
     }
-    for (i in b.indices) {
-        if (visited[i]) println("YES")
-        else println("NO")
+    var result = 0
+    while (!treeQueue.isEmpty()) {
+        val q = treeQueue.poll()
+        val treeX = q.x
+        val treeY = q.y
+        for (i in 0 until 4) {
+            val nTreeX = q.x + dx[i]
+            val nTreeY = q.y + dy[i]
+            if (nTreeX < 0 || nTreeY < 0 || nTreeX >= N || nTreeY >= M) continue
+            if (dist[nTreeX][nTreeY] == -1) {
+                dist[nTreeX][nTreeY] = dist[treeX][treeY] + 1
+                treeQueue.add(TreePosition(nTreeX, nTreeY))
+            }
+        }
     }
-    bw.flush()
+    val startX = wolfPosition[0]
+    val startY = wolfPosition[1]
+    priorityTreeQueue.add(PriorityTree(startX, startY, dist[startX][startY], dist[startX][startY]))
+    while (!priorityTreeQueue.isEmpty()) {
+        val q = priorityTreeQueue.poll()
+        val curX = q.x
+        val curY = q.y
+        val distance = q.distance
+        val minDistance = q.minDistance
+        if (curX == housePosition[0] && curY == housePosition[1]) {
+            result = minDistance
+            break
+        }
+        if (dist[curX][curY] == -1) continue
+        dist[curX][curY] = -1
+        for (i in 0 until 4) {
+            val nx = curX + dx[i]
+            val ny = curY + dy[i]
+            if (nx < 0 || ny < 0 || nx >= N || ny >= M) continue
+            if (dist[nx][ny] != -1) {
+                priorityTreeQueue.add(PriorityTree(nx, ny, dist[nx][ny], min(dist[nx][ny], minDistance)))
+            }
+        }
+    }
+    println(result)
 }
+
+private data class PriorityTree(
+        val x: Int,
+        val y: Int,
+        val distance: Int,
+        val minDistance: Int
+)
+
+private data class TreePosition(
+        val x: Int,
+        val y: Int
+)
