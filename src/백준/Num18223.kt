@@ -4,7 +4,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 private lateinit var busStopMap: Array<ArrayList<BusStop>>
-private const val FIND_SUCCESS = "SAVA HIM"
+private const val FIND_SUCCESS = "SAVE HIM"
 private const val FIND_FALSE = "GOOD BYE"
 fun main() {
     val input = System.`in`.bufferedReader()
