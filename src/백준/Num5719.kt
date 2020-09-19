@@ -1,65 +1,99 @@
 package 백준
 
 import java.util.*
-import kotlin.Comparator
 import kotlin.collections.ArrayList
+import kotlin.collections.HashSet
 
-private lateinit var trace : Array<ArrayList<Int>>
-private lateinit var dist : Array<Int>
-private lateinit var map : Array<IntArray>
 fun main() {
-    val br = System.`in`.bufferedReader()
-    val bw = System.out.bufferedWriter()
+    val input = System.`in`.bufferedReader()
     while (true) {
-        val (n, m) = br.readLine().split(" ").map { it.toInt() }
-        if (n == 0 && m == 0) break
-        val (s, d) = br.readLine().split(" ").map { it.toInt() }
-        dist = Array(n){200000000}
-        map = Array(n){ IntArray(n) }
-        trace = Array(n){ArrayList<Int>()}
-        for (i in 0 until m) {
-            val (u, v, p) = br.readLine().split(" ").map { it.toInt() }
-            map[u][v] = p
+        val (N, M) = input.readLine().split(" ").map { it.toInt() }
+        if (N == 0 && M == 0) break
+        val (S,D) = input.readLine().split(" ").map { it.toInt() }
+        val loadMap = Array(N){ArrayList<Load>()}
+        for (i in 0 until M) {
+            val row = input.readLine().split(" ").map { it.toInt()}
+            loadMap[row[0]].add(Load(row[1],row[2]))
         }
-        dijkstra(s,d,n)
-        traceBack(s,d,n)
-        Arrays.fill(dist,200000000)
-        println(dijkstra(s,d,n))
+        val queue : Queue<LoadPath> = LinkedList()
+        val dist = IntArray(N){Int.MAX_VALUE}
+        val shortPoints = HashSet<Int>()
+        dist[S] = 0
+        queue.add(LoadPath(Load(S,0), intArrayOf()))
+        while (!queue.isEmpty()) {
+            val q = queue.poll()
+            val curLoad = q.load
+            val curPath = q.path
+            for (j in loadMap[curLoad.end].indices) {
+                val nNode = loadMap[curLoad.end][j].end
+                val nDist = loadMap[curLoad.end][j].distance
+                if (dist[nNode] > curLoad.distance + nDist) {
+                    dist[nNode] = curLoad.distance + nDist
+                    val nPath = curPath + nNode
+                    if (nNode == D) {
+                        shortPoints.clear()
+                        shortPoints.addAll(curPath.toCollection(HashSet<Int>()))
+                    }
+                    queue.add(LoadPath(Load(nNode,dist[nNode]),nPath))
+                }else if (dist[nNode] == curLoad.distance + nDist) {
+                    if (nNode == D) {
+                        shortPoints.addAll(curPath.toCollection(HashSet<Int>()))
+                    }
+                }
+            }
+        }
+        val answer = getNearlyShortestDist(N,S,D,shortPoints.toIntArray(),loadMap)
+        if (answer == Int.MAX_VALUE) println(-1)
+        else println(answer)
     }
-    bw.flush()
 }
-private fun dijkstra(start: Int, end : Int,n:Int) : Int {
-    val queue : PriorityQueue<Navigation> = PriorityQueue<Navigation>(Comparator.comparingInt { e1 -> e1.pos })
-    queue.offer(Navigation(start,0))
+
+private fun getNearlyShortestDist(n : Int,start:Int,end:Int,points:IntArray,loadMap:Array<ArrayList<Load>>): Int {
+    val queue : Queue<Load> = LinkedList()
+    val dist = IntArray(n){Int.MAX_VALUE}
     dist[start] = 0
+    queue.add(Load(start,0))
     while (!queue.isEmpty()) {
         val q = queue.poll()
-        val curPos = q.pos
-        val curDist = q.dist
-        for (i in 0 until n) {
-            if (map[curPos][i] != -1 && curDist + map[curPos][i] <= dist[i]) {
-                dist[i] = curDist + map[curPos][i]
-                queue.offer(Navigation(i, dist[i]))
-                trace[i].add(curPos)
+        val curNode = q.end
+        val curDist = q.distance
+        for (i in loadMap[curNode].indices) {
+            val nNode = loadMap[curNode][i].end
+            val nDist = loadMap[curNode][i].distance
+            if (points.contains(nNode)) continue
+            if (dist[nNode] > curDist + nDist) {
+                dist[nNode] = curDist + nDist
+                queue.add(Load(nNode,dist[nNode]))
             }
         }
     }
-    return if (dist[end] >= 200000000) dist[end] -1 else dist[end]
+    return dist[end]
 }
-private fun traceBack(start : Int, end : Int,n:Int) {
-    val queue : Queue<Int> = LinkedList()
-    queue.offer(end)
-    while (!queue.isEmpty()) {
-        val q = queue.poll()
-        for (element in trace[q]) {
-            if (map[element][q] != -1 && dist[q] == map[element][q] + dist[element]) {
-                queue.offer(element)
-                map[element][q] = -1
-            }
-        }
-    }
-}
-private data class Navigation(
-        val pos : Int,
-        val dist : Int
+
+private data class Load(
+        val end:Int,
+        val distance:Int
 )
+
+private data class LoadPath(
+        val load:Load,
+        val path:IntArray
+) {
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+
+        other as LoadPath
+
+        if (load != other.load) return false
+        if (!path.contentEquals(other.path)) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = load.hashCode()
+        result = 31 * result + path.contentHashCode()
+        return result
+    }
+}
