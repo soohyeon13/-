@@ -5,7 +5,7 @@ fun main() {
     val input = System.`in`.bufferedReader()
     val (N, M) = input.readLine().split(" ").map { it.toInt() }
     val loadInfos = ArrayList<SchoolPath>()
-    for (i in 0 until M + 1) {
+    for (ipr in 0 until M + 1) {
         val row = input.readLine().split(" ").map { it.toInt() }
         loadInfos.add(SchoolPath(row[0], row[1], row[2]))
     }
@@ -19,6 +19,7 @@ fun main() {
             if (path.cost == 0) cost1++
         }
     }
+    println(parent.contentToString())
     parent = IntArray(N + 1) { i -> i }
     var cost2 = 0
     for (i in loadInfos.size-1 downTo  0 step 1) {
