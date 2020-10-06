@@ -1,5 +1,7 @@
 package 백준
 
+import kotlin.math.max
+
 private lateinit var numberMap: Array<IntArray>
 private lateinit var indexMap: IntArray
 private var maxValue = Int.MIN_VALUE
@@ -21,31 +23,29 @@ fun main() {
         numberMap[i] = row.toIntArray()
     }
     val visited = BooleanArray(N * M)
-    combination(visited, 0, K)
+    combination(visited, 0, K, 0)
     println(maxValue)
 }
 
-private fun combination(visited: BooleanArray, start: Int, r: Int) {
+private fun combination(visited: BooleanArray, start: Int, r: Int, sum: Int) {
     if (r == 0) {
-        val arr = ArrayList<Int>()
-        visited.forEachIndexed { index, value -> if (value) arr.add(index) }
-        calculate(arr)
+        maxValue = max(maxValue, sum)
         return
     }
     loop@ for (i in start until indexMap.size) {
         visited[i] = true
-        if (!isCheckStuck(visited, i)) {
+        val x = i / m
+        val y = i % m
+        if (!isCheckStuck(visited, x, y)) {
             visited[i] = false
             continue@loop
         }
-        combination(visited, i + 1, r - 1)
+        combination(visited, i + 1, r - 1, sum + numberMap[x][y])
         visited[i] = false
     }
 }
 
-private fun isCheckStuck(visited: BooleanArray, index: Int): Boolean {
-    val x = index / m
-    val y = index % m
+private fun isCheckStuck(visited: BooleanArray, x: Int, y: Int): Boolean {
     for (i in 0 until 4) {
         val nx = x + dx[i]
         val ny = y + dy[i]
@@ -55,14 +55,4 @@ private fun isCheckStuck(visited: BooleanArray, index: Int): Boolean {
             return false
     }
     return true
-}
-
-private fun calculate(arr: ArrayList<Int>) {
-    var count = 0
-    for (i in arr.indices) {
-        val x = arr[i] / m
-        val y = arr[i] % m
-        count += numberMap[x][y]
-    }
-    if (maxValue < count) maxValue = count
 }
