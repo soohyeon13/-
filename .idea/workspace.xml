@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6f745f1-9040-4479-a233-cfefc8c3fbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/백준/Num18290.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/백준/Num18290.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준/Num18290.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,19 +100,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Kotlin.Num18290Kt">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FiboKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="VM_PARAMETERS" />
@@ -555,6 +542,7 @@
       <workItem from="1601894079058" duration="64000" />
       <workItem from="1601894217574" duration="3076000" />
       <workItem from="1601963237089" duration="7520000" />
+      <workItem from="1601976126225" duration="1093000" />
     </task>
     <task id="LOCAL-00055" summary="이분탐색 풀이">
       <created>1589466611414</created>
@@ -972,22 +960,22 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1188" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1600658259762" />
-    <state width="971" height="300" key="GridCell.Tab.0.bottom" timestamp="1601974619645">
+    <state width="971" height="300" key="GridCell.Tab.0.bottom" timestamp="1601977275250">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="971" height="300" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1601974619645" />
-    <state width="971" height="300" key="GridCell.Tab.0.center" timestamp="1601974619644">
+    <state width="971" height="300" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1601977275250" />
+    <state width="971" height="300" key="GridCell.Tab.0.center" timestamp="1601977275248">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="971" height="300" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1601974619644" />
-    <state width="971" height="300" key="GridCell.Tab.0.left" timestamp="1601974619643">
+    <state width="971" height="300" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1601977275248" />
+    <state width="971" height="300" key="GridCell.Tab.0.left" timestamp="1601977275247">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="971" height="300" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1601974619643" />
-    <state width="971" height="300" key="GridCell.Tab.0.right" timestamp="1601974619645">
+    <state width="971" height="300" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1601977275247" />
+    <state width="971" height="300" key="GridCell.Tab.0.right" timestamp="1601977275249">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="971" height="300" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1601974619645" />
+    <state width="971" height="300" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1601977275249" />
     <state width="971" height="466" key="GridCell.Tab.1.bottom" timestamp="1600591993899">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
