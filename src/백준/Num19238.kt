@@ -98,6 +98,7 @@ private fun findPassenger(x: Int, y: Int) {
     while (!queue.isEmpty()) {
         val q = queue.poll()
         if (taxiMap[q.x][q.y] >= 1) {
+            println(q.toString())
             nodeMap.add(Taxi(q.x, q.y, q.dist))
             break
         }
