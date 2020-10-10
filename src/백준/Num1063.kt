@@ -1,8 +1,6 @@
 package 백준
 
 import kotlin.math.abs
-import kotlin.math.absoluteValue
-
 
 private val orderMap = ArrayList<String>()
 fun main() {

@@ -19,6 +19,7 @@ class Solution2 {
         }
 //
 //        for (customer in a) {
+//
 //            val kiosk = isEmpty(kiosks,customer[0])
 //            val willStart = max(kiosks[kiosk],customer[0])
 //            result[kiosk]++
