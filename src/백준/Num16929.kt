@@ -3,6 +3,7 @@ package 백준
 import java.util.*
 
 private lateinit var playDotsMap: Array<Array<String>>
+private lateinit var visited : Array<BooleanArray>
 private val dx = intArrayOf(-1, 0, 1, 0)
 private val dy = intArrayOf(0, 1, 0, -1)
 private var n = 0
@@ -20,10 +21,10 @@ fun main() {
     }
     loop@ for (i in 0 until n) {
         for (j in 0 until m) {
-            val visited = Array(n) { BooleanArray(m) }
+            visited = Array(n) { BooleanArray(m) }
             visited[i][j] = true
             val dot = Dots(i, j, playDotsMap[i][j])
-            dfs(i, j, visited, dot, 0)
+            dfs(i, j, dot, 0)
             if (flag) break@loop
         }
     }
@@ -32,8 +33,8 @@ fun main() {
     else println("NO")
 }
 
-private fun dfs(x: Int, y: Int, visited: Array<BooleanArray>, dot: Dots, cnt: Int) {
-    if (cnt > 3 && x == dot.x && y == dot.y && playDotsMap[x][y] == dot.value) {
+private fun dfs(x: Int, y: Int, dot: Dots, cnt: Int) {
+    if (cnt >= 3 && playDotsMap[x][y] == dot.value) {
         flag = true
         return
     }
@@ -41,14 +42,14 @@ private fun dfs(x: Int, y: Int, visited: Array<BooleanArray>, dot: Dots, cnt: In
         val nx = x + dx[i]
         val ny = y + dy[i]
         if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue
-        if (cnt > 3 && nx == dot.x && ny == dot.y && playDotsMap[nx][ny] == dot.value) {
+        if (cnt >= 3 && playDotsMap[nx][ny] == dot.value) {
             flag = true
             return
         }
         if (visited[nx][ny]) continue
         if (playDotsMap[nx][ny] != dot.value) continue
         visited[nx][ny] = true
-        dfs(nx, ny, visited, dot, cnt + 1)
+        dfs(nx, ny, dot, cnt + 1)
         visited[nx][ny] = false
     }
 }
